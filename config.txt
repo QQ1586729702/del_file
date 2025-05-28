@@ -1,0 +1,14 @@
+# 删除文件位置
+delFilePath = C://test//
+# 删除文件类型
+delFileType = txt
+# 开始删除时间
+startDelTime = 2022-08-20
+# 结束删除时间(不包含当天)[开始时间,结束时间)
+endDelTime = 2023-11-24
+# 文件删除名字包含
+fileDeleteNameInclude = *
+# 星期几不删除(创建时间为备份文件的后一天)(1->备份星期天,2->备份星期一)
+retentionWeekOfDay = 6
+# 一个月的哪几天不删除
+retentionMonthOfDay = 01,02
